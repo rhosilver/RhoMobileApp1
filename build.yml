@@ -1,7 +1,7 @@
 #---
 #sdkversion: 5.0.0
 name: RhoMobileApp1
-version: '2.1.5'
+version: '1.2'
 vendor: rhomobile
 build: debug
 applog: rholog.txt
@@ -20,7 +20,7 @@ wp8:
 android:
   manifest_template: AndroidManifest.erb
   version: 2.3.3
-  android_title: 0
+  android_title: 1
   logcatFilter: APP:I StrictMode:I DEBUG:I *:E
 wm: ''
 win32:
