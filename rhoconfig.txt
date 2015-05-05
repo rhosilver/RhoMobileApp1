@@ -57,6 +57,7 @@ sync_poll_interval=0
 # default 1 for Android up to Rhodes 2.2.5.
 # on all other platforms and on Android from Rhodes >2.2.5 default 0
 #full_screen = 1
+android_title = 0
 
 # show top menu on Windows desktop in full screen mode (default is 0=don't show top menu)
 #w32_fullscreen_menu = 1
@@ -68,6 +69,7 @@ sync_poll_interval=0
 # If not specified, application will use dynamically selected one.
 # WARNING!!! Remove this parameter before put application to production.
 #local_server_port = 8080
+
 
 # show status bar on windows mobile. default 1
 #wm_show_statusbar = 1
