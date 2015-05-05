@@ -20,7 +20,6 @@ wp8:
 android:
   manifest_template: AndroidManifest.erb
   version: 2.3.3
-  android_title: 0
   logcatFilter: APP:I StrictMode:I DEBUG:I *:E
 wm: ''
 win32:
