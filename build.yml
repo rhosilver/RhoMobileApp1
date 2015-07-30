@@ -16,8 +16,6 @@ iphone:
   codesignidentity: "iPhone Developer: Raghavendra Kamble (W8L77BLH6N)"
   BundleIdentifier: com.rhomobileapp1
   BundleURLScheme: rhomobileapp1
-  production:
-    ipa_itunesartwork_image: ./production/iTunesArtwork.png
 wp8:
   productid: ca054410-a528-0132-3596-00000b3d6e45
 android:
