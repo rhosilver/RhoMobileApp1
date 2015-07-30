@@ -1,5 +1,5 @@
 #---
-#sdkversion: 5.0.0
+sdkversion: 5.2.0
 name: RhoMobileApp1
 version: '1.2'
 vendor: rhomobile
@@ -7,11 +7,14 @@ build: debug
 applog: rholog.txt
 iphone:
   configuration: Release
-  sdk: iphonesimulator8.1
-  provisionprofile: ''
-  codesignidentity: iPhone Developer
-  entitlements: ''
-  BundleIdentifier: com.rhomobile.rhomobileapp1
+  sdk: iphoneos8.3
+  provisionprofile: "WildCard Development COM"
+  production:
+    mobileprovision_file: "./production/wildcard_com.mobileprovision"
+    certificate_file: "./production/Certificates_Raghu_new.p12"
+    certificate_password: "Zebra@123"
+  codesignidentity: "iPhone Developer: Raghavendra Kamble (W8L77BLH6N)"
+  BundleIdentifier: com.rhomobileapp1
   BundleURLScheme: rhomobileapp1
   production:
     ipa_itunesartwork_image: ./production/iTunesArtwork.png
